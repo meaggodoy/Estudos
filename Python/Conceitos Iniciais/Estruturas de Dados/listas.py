@@ -22,9 +22,12 @@ print(frutas)
 frutas.reverse() #inverte ordem dos elementos
 print(frutas)
 
+print(len(frutas)) #mostra tamanho da lista
+
 #Listas de compreensão:
 num = range(1, 11)
 #baseado na lista num, vamos criar outra
 #novaLista = [expressão for número in lista if condição]
 quadradosPares = [x ** 2 for x in num if x % 2 == 0] 
 print(quadradosPares) #irá apresentar apenas os quadrados pares na lista de números de 1 a 10
+
