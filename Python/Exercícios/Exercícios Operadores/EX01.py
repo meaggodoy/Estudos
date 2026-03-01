@@ -3,3 +3,4 @@
 num = int(input("Digite um número: "))
 
 print("Antecessor: ", num - 1)
+
